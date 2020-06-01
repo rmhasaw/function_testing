@@ -156,7 +156,7 @@
       <header>decimalpint output</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>t9.setOut_string(&quot;&quot;+t9.decimalRound(t9.getNumber1(),t9.getField1()))</text>
+          <text>t9.setOut_string(&quot;&quot;+t9.decimalRound(t9.getNumber1(),t9.getField3()))</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>

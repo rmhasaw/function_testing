@@ -2,12 +2,14 @@ package com.priyanka.function_testing;
 import java.util.*;
 import java.text.DecimalFormat;
 import java.math.*;
+import java.lang.Number;
 
 
 public class data_object implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+    private Number number1;
 	private java.lang.String field1;
 	private java.lang.String field2;
 
@@ -21,6 +23,14 @@ public class data_object implements java.io.Serializable {
 	}
 	
 	private long brand;
+	
+	public Number getNumber1(){
+	    return this.number1;
+	} 
+	
+	public void setNumber1(Number number1){
+	    this.number1 = number1;
+	}
 	
 	public long getBrand(){
 	    return this.brand;

@@ -19,6 +19,17 @@ public class data_object implements java.io.Serializable {
 
 	public data_object() {
 	}
+	
+	private long brand;
+	
+	public long getBrand(){
+	    return this.brand;
+	}
+	
+	public void setBrand(long brand){
+	    this.brand = brand;
+	}
+		
 
 	public java.lang.String getField1() {
 		return this.field1;

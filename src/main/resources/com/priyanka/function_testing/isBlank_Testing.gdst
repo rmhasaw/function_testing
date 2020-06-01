@@ -50,7 +50,7 @@
       <header>stringFilter output</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>t9.setOut_string( t9.string_filter(t9.getField1(),t9.getField2()) )</text>
+          <text>t9.setOut_string(t9.string_filter(t9.getField1(),t9.getField2()));</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>

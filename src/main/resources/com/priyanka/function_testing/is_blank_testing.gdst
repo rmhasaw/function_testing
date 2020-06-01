@@ -47,28 +47,17 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>fielf2 lengthOf</header>
+      <header>field2 lengthOf</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>getLengthOf</field>
-              <value>t9.getField2()</value>
-              <nature>1</nature>
-              <type>java.lang.Object</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-          </fieldValues>
-          <variable>t9</variable>
-          <state>1</state>
-          <methodName>getLengthOf</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>t9.setOut_string(t9.stringFilter(t9.getField1(),t9.getField2()))</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>fielf2 lengthOf</header>
+          <header>field2 lengthOf</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>

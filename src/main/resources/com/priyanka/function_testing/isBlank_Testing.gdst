@@ -143,7 +143,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>!isBlank(t9.getField2())</valueString>
+        <valueString>!isBlank(t9.getField1())</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

@@ -370,7 +370,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;1&quot;,&quot;2&quot;,&quot;3&quot;</valueString>
+        <valueString>1,2,3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

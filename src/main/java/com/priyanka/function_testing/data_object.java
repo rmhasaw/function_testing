@@ -12,6 +12,7 @@ public class data_object implements java.io.Serializable {
     private Number number1;
 	private java.lang.String field1;
 	private java.lang.String field2;
+	private int field3;
 
 	private String out_string;
 
@@ -23,6 +24,14 @@ public class data_object implements java.io.Serializable {
 	}
 	
 	private long brand;
+	
+	public int getField3(){
+	    return this.field3;
+	}
+	
+	public void setField3(int field3){
+	    this.field3 = field3;
+	}
 	
 	public Number getNumber1(){
 	    return this.number1;

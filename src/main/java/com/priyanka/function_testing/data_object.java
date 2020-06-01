@@ -71,6 +71,10 @@ public class data_object implements java.io.Serializable {
 		this.output_any_contains = output_any_contains;
 	}
 
+public int multi_count(java.util.List lst){
+lst.removeAll(java.util.Arrays.asList("", null));
+     return lst.size();
+}
 
 	public String stringFilter(String str, String filter_str) {
 		String outputStr = "";

@@ -22,7 +22,6 @@
           <header>field1 not null</header>
           <constraintValueType>5</constraintValueType>
           <factField></factField>
-          <fieldType></fieldType>
           <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
@@ -32,7 +31,6 @@
           <header>field1 blank</header>
           <constraintValueType>5</constraintValueType>
           <factField></factField>
-          <fieldType></fieldType>
           <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
@@ -122,6 +120,35 @@
       </value>
       <value>
         <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>rule2</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>!isBlank(t9.getField2())</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>

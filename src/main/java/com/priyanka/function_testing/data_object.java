@@ -120,7 +120,7 @@ public boolean isBlank(String str)
  public ArrayList<String> convertVectorToString(java.util.List inputList){
  ArrayList<String> strList = new ArrayList<String>();
  
- if(inputList.size() != 0){
+ if(inputList != null && inputList.size() != 0){
   String combineVectorStr = "";
  
   for(Object str : inputList){

@@ -95,7 +95,7 @@ public class data_object implements java.io.Serializable {
     
 public boolean isBlank(String str)
     { 
-        return str.isEmpty();
+        return str != null && str.isEmpty();
     }
     
    public String stringSubstring(String str,int start_index,int length)

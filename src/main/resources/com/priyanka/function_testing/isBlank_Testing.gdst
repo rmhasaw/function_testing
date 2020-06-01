@@ -61,6 +61,66 @@
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>LengthOf output</header>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>getLengthOf</field>
+              <value>&quot;NewValue&quot;</value>
+              <nature>1</nature>
+              <type>java.lang.Object</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>t9</variable>
+          <state>1</state>
+          <methodName>getLengthOf</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>LengthOf output</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>lengthOf2 output</header>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+              <field>getLengthOf</field>
+              <value>t9.getField1()</value>
+              <nature>3</nature>
+              <type>java.lang.Object</type>
+              <method></method>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
+          </fieldValues>
+          <variable>t9</variable>
+          <state>1</state>
+          <methodName>getLengthOf</methodName>
+        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>lengthOf2 output</header>
+          <varName></varName>
+          <fieldType>Boolean</fieldType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
@@ -124,6 +184,18 @@
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
     </list>
     <list>
       <value>
@@ -145,6 +217,59 @@
       <value>
         <valueString>!isBlank(t9.getField1())</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>true</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>rule3 </valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>!isNull(t9.getField1())</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>

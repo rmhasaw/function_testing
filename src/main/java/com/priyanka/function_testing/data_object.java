@@ -112,7 +112,7 @@ lst.removeAll(java.util.Arrays.asList("", null));
    public Number decimalRound(java.lang.Number num, int num_places){
         try{
             if(num_places<0) 
-             num_places = 0 ;
+             return num;
    
             String format = (num_places == 0)? "#" :"#.";
             for(int i =1;i<=num_places;i++){
@@ -121,6 +121,26 @@ lst.removeAll(java.util.Arrays.asList("", null));
         DecimalFormat df = new DecimalFormat(format);
         df.setRoundingMode(RoundingMode.HALF_UP);
         return Double.parseDouble(df.format(num));
+        
+        } catch(Exception e) {
+            return num;
+        }
+    }
+    
+    public java.math.BigDecimal decimal_round(java.math.BigDecimal num, int num_places){
+        try{
+            if(num_places<0)
+            return num;
+            
+            String format = (num_places == 0)? "#" :"#.";
+            for(int i =1;i<=num_places;i++){
+                format = format.concat("#");
+            }
+        DecimalFormat df = new DecimalFormat(format);
+        df.setRoundingMode(RoundingMode.HALF_UP);
+        java.math.BigDecimal out_num = new java.math.BigDecimal(df.format(num));
+        return out_num;
+        
         
         } catch(Exception e) {
             return num;

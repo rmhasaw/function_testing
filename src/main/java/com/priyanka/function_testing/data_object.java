@@ -127,8 +127,9 @@ lst.removeAll(java.util.Arrays.asList("", null));
         }
     }
     
-    public java.math.BigDecimal decimal_round(java.math.BigDecimal num, int num_places){
-        try{
+    public java.math.BigDecimal decimalRound(java.math.BigDecimal num, int num_places){
+       
+        	
             if(num_places<0)
             return num;
             
@@ -141,10 +142,7 @@ lst.removeAll(java.util.Arrays.asList("", null));
         java.math.BigDecimal out_num = new java.math.BigDecimal(df.format(num));
         return out_num;
         
-        
-        } catch(Exception e) {
-            return num;
-        }
+       
     }
     
 public boolean isBlank(String str)

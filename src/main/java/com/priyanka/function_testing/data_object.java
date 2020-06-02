@@ -13,6 +13,8 @@ public class data_object implements java.io.Serializable {
 	private java.lang.String field1;
 	private java.lang.String field2;
 	private int field3;
+	private int startIndex;
+	private int length;
 
 	private String out_string;
 
@@ -24,6 +26,22 @@ public class data_object implements java.io.Serializable {
 	}
 	
 	private long brand;
+	
+	public int getStartIndex(){
+	    return this.startIndex;
+	}
+	
+	public void setStartIndex(int startIndex){
+	    this.startIndex = startIndex;
+	}
+	
+	public int getLength(){
+	    return this.length;
+	}
+	
+	public void setLength(int length){
+	    this.length = length;
+	}
 	
 	public int getField3(){
 	    return this.field3;

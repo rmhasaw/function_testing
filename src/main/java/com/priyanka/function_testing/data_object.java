@@ -194,7 +194,6 @@ public boolean isBlank(String str)
   String combineVectorStr = "";
  
   for(Object str : inputList){
-      System.out.println("str-"+str);
    combineVectorStr = combineVectorStr + str + "~";
   }
   strList.add(combineVectorStr);

@@ -16,7 +16,7 @@ public class data_object implements java.io.Serializable {
 	private int startIndex;
 	private int length;
 
-	private String out_string;
+	private String out_string = "";
 
 	private java.util.List<java.lang.String> list_str = new ArrayList<java.lang.String>(); ;
 

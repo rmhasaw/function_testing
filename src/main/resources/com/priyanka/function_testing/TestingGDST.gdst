@@ -176,7 +176,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>t6.multi_count(t6.convertVectorToString(t6.getList_str())) == 1</valueString>
+        <valueString>t6.multi_count(t6.convertVectorToString(t6.getList_str())) == 0</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

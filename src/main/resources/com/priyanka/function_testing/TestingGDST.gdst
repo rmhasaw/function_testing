@@ -81,7 +81,6 @@
           <header>multicount_filed</header>
           <constraintValueType>5</constraintValueType>
           <factField></factField>
-          <fieldType></fieldType>
           <operator>--- please choose ---</operator>
           <parameters/>
         </condition-column52>
@@ -155,12 +154,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="long">10</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>test</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -171,12 +171,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&quot;2&quot;</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>t6.multi_count(t6.convertVectorToString(t6.getList_str())) == 0</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

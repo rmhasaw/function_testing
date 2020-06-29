@@ -1,7 +1,7 @@
 package com.priyanka.function_testing;
-import java.util;
+import java.util.*;
 import java.text.DecimalFormat;
-import java.math;
+import java.math.*;
 import java.lang.Number;
 
 public class data_object implements java.io.Serializable {
